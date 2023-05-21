@@ -1,0 +1,29 @@
+.statistics {
+    padding: 20px 0;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.stat__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stat__item {
+    border: 2px solid gray;
+}
+
+.label {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.percentage {
+    display: inline-block;
+    font-weight: bold;
+}
