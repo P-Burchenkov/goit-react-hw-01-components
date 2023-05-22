@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/P-Burchenkov/goit-react-hw-01-components/static/css/main.9b846515.css",
-    "main.js": "/P-Burchenkov/goit-react-hw-01-components/static/js/main.c96cdf4d.js",
+    "main.css": "/P-Burchenkov/goit-react-hw-01-components/static/css/main.3ab7a4e6.css",
+    "main.js": "/P-Burchenkov/goit-react-hw-01-components/static/js/main.8549afd5.js",
     "index.html": "/P-Burchenkov/goit-react-hw-01-components/index.html",
-    "main.9b846515.css.map": "/P-Burchenkov/goit-react-hw-01-components/static/css/main.9b846515.css.map",
-    "main.c96cdf4d.js.map": "/P-Burchenkov/goit-react-hw-01-components/static/js/main.c96cdf4d.js.map"
+    "main.3ab7a4e6.css.map": "/P-Burchenkov/goit-react-hw-01-components/static/css/main.3ab7a4e6.css.map",
+    "main.8549afd5.js.map": "/P-Burchenkov/goit-react-hw-01-components/static/js/main.8549afd5.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b846515.css",
-    "static/js/main.c96cdf4d.js"
+    "static/css/main.3ab7a4e6.css",
+    "static/js/main.8549afd5.js"
   ]
 }
