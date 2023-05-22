@@ -1,21 +1,18 @@
 import css from './FriendList.module.css';
 import PropTypes from 'prop-types';
+import FriendListItem from 'components/FriendListItem/FriendListItem';
 
 export default function FriendList({ friends }) {
   return (
     <ul className={css.list}>
-      {friends.map(({ id, avatar, name, isOnline }) => {
+      {friends.map(friend => {
         return (
-          <li className={css.item} key={id}>
-            <span className={`${css.status} ${css[isOnline]}`}></span>
-            <img
-              className={css.avatar}
-              src={avatar}
-              alt="User avatar"
-              width="48"
-            />
-            <p className={css.name}>{name}</p>
-          </li>
+          <FriendListItem
+            key={friend.id}
+            avatar={friend.avatar}
+            name={friend.name}
+            isOnline={friend.isOnline}
+          />
         );
       })}
     </ul>
